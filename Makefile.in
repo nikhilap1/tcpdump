@@ -99,6 +99,7 @@ LIBNETDISSECT_SRC=\
 	print-aoe.c \
 	print-ap1394.c \
 	print-arcnet.c \
+	print-arista-avsp.c \
 	print-arp.c \
 	print-ascii.c \
 	print-atalk.c \

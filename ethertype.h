@@ -209,5 +209,7 @@
 #ifndef	ETHERTYPE_MEDSA
 #define	ETHERTYPE_MEDSA		0xdada	/* Marvel Distributed Switch Architecture */
 #endif
-
+#ifndef	ETHERTYPE_ARISTA_AVSP
+#define	ETHERTYPE_ARISTA_AVSP  0xd28b	/*  Arista Networks vendor specific EtherType */
+#endif
 extern const struct tok ethertype_values[];

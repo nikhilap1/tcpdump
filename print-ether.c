@@ -101,6 +101,7 @@ const struct tok ethertype_values[] = {
     { ETHERTYPE_CALM_FAST,      "CALM FAST"},
     { ETHERTYPE_AOE,            "AoE" },
     { ETHERTYPE_MEDSA,          "MEDSA" },
+    { ETHERTYPE_ARISTA_AVSP,    "Arista Vendor Specific Protocol" },
     { 0, NULL}
 };
 
@@ -249,6 +250,39 @@ recurse:
 			llc_hdrlen = -llc_hdrlen;
 		}
 		hdrlen += llc_hdrlen;
+		} else if (length_type == ETHERTYPE_ARISTA_AVSP) {
+			if (caplen < 2) {
+				ND_PRINT("[|arista]");
+				return (hdrlen + caplen);
+			}
+			if (length < 2) {
+				ND_PRINT("[|arista]");
+				return (hdrlen + length);
+			}
+			int bytesConsumed = arista_print_avsp(ndo, p, length);
+			if (bytesConsumed > 0) {
+				p += bytesConsumed;
+				length -= bytesConsumed;
+				caplen -= bytesConsumed;
+
+				length_type = EXTRACT_BE_U_2(p);
+				if (ndo->ndo_eflag)
+					ND_PRINT(", ethertype %s (0x%04x), ",
+						tok2str(ethertype_values,"Unknown", length_type), length_type);
+				p += 2;
+				length -= 2;
+				caplen -= 2;
+				hdrlen += bytesConsumed + 2;
+				goto recurse;
+			} else {
+				/* subtype/version not known, print raw packet */
+				if (!ndo->ndo_eflag && length_type > MAX_ETHERNET_LENGTH_VAL) {
+					if (print_encap_header != NULL) {
+						(*print_encap_header)(ndo, encap_header_arg);
+					}
+					ether_hdr_print(ndo, (u_char *)ehp, orig_length);
+				}
+			}
 	} else {
 		if (ethertype_print(ndo, length_type, p, length, caplen, &src, &dst) == 0) {
 			/* type not known, print raw packet */

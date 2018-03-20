@@ -1,0 +1,41 @@
+send packet at 1519811363xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+05:49:13.502385 SubType: 0x1, Version: 0x20, Timestamp (48 bit): Seconds 31513, Nanoseconds 563506909, 00:aa:aa:aa:aa:aa > 00:aa:aa:aa:aa:00, Arista Vendor Specific Protocol, length 108:
+send packet at 1519811353xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+05:49:13.503056 SubType: 0x1, Version: 0x20, Timestamp (48 bit): Seconds 31513, Nanoseconds 564249487, 00:aa:aa:aa:aa:aa > 00:aa:aa:aa:aa:00, Arista Vendor Specific Protocol, length 108:
+send packet at 1519811353xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+05:49:13.503084 SubType: 0x1, Version: 0x20, Timestamp (48 bit): Seconds 31513, Nanoseconds 564303157, 00:aa:aa:aa:aa:aa > 00:aa:aa:aa:aa:00, Arista Vendor Specific Protocol, length 108:
+send packet at 1519811353xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+05:49:13.503382 SubType: 0x1, Version: 0x20, Timestamp (48 bit): Seconds 31513, Nanoseconds 564537416, 00:aa:aa:aa:aa:aa > 00:aa:aa:aa:aa:00, Arista Vendor Specific Protocol, length 108:
+send packet at 1519811353xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+05:49:13.503409 SubType: 0x1, Version: 0x20, Timestamp (48 bit): Seconds 31513, Nanoseconds 564595337, 00:aa:aa:aa:aa:aa > 00:aa:aa:aa:aa:00, Arista Vendor Specific Protocol, length 108:
+send packet at 1519811353xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+05:49:13.503683 SubType: 0x1, Version: 0x20, Timestamp (48 bit): Seconds 31513, Nanoseconds 564952623, 00:aa:aa:aa:aa:aa > 00:aa:aa:aa:aa:00, Arista Vendor Specific Protocol, length 108:
+send packet at 1519811353xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+05:49:13.503710 SubType: 0x1, Version: 0x20, Timestamp (48 bit): Seconds 31513, Nanoseconds 564985054, 00:aa:aa:aa:aa:aa > 00:aa:aa:aa:aa:00, Arista Vendor Specific Protocol, length 108:
+send packet at 1519811353xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+05:49:13.540537 SubType: 0x1, Version: 0x20, Timestamp (48 bit): Seconds 31513, Nanoseconds 565266051, 00:aa:aa:aa:aa:aa > 00:aa:aa:aa:aa:00, Arista Vendor Specific Protocol, length 108:
+send packet at 1519811353xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+05:49:13.540566 SubType: 0x1, Version: 0x20, Timestamp (48 bit): Seconds 31513, Nanoseconds 565299513, 00:aa:aa:aa:aa:aa > 00:aa:aa:aa:aa:00, Arista Vendor Specific Protocol, length 108:
+send packet at 1519811353xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+05:49:13.540584 SubType: 0x1, Version: 0x20, Timestamp (48 bit): Seconds 31513, Nanoseconds 565572367, 00:aa:aa:aa:aa:aa > 00:aa:aa:aa:aa:00, Arista Vendor Specific Protocol, length 108:
+send packet at 1519811353xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+05:49:23.197079 SubType: 0x1, Version: 0x10, Timestamp TAI(64-bit): Seconds 1519811363, Nanoseconds 258347943, 00:aa:aa:aa:aa:aa > 00:aa:aa:aa:aa:00, Arista Vendor Specific Protocol, length 110:
+send packet at 1519811363xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+05:49:23.197830 SubType: 0x1, Version: 0x10, Timestamp TAI(64-bit): Seconds 1519811363, Nanoseconds 258995157, 00:aa:aa:aa:aa:aa > 00:aa:aa:aa:aa:00, Arista Vendor Specific Protocol, length 110:
+send packet at 1519811363xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+05:49:23.197869 SubType: 0x1, Version: 0x10, Timestamp TAI(64-bit): Seconds 1519811363, Nanoseconds 259036383, 00:aa:aa:aa:aa:aa > 00:aa:aa:aa:aa:00, Arista Vendor Specific Protocol, length 110:
+send packet at 1519811363xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+05:49:23.197883 SubType: 0x1, Version: 0x10, Timestamp TAI(64-bit): Seconds 1519811363, Nanoseconds 259107948, 00:aa:aa:aa:aa:aa > 00:aa:aa:aa:aa:00, Arista Vendor Specific Protocol, length 110:
+send packet at 1519811363xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+05:49:23.198131 SubType: 0x1, Version: 0x10, Timestamp TAI(64-bit): Seconds 1519811363, Nanoseconds 259309644, 00:aa:aa:aa:aa:aa > 00:aa:aa:aa:aa:00, Arista Vendor Specific Protocol, length 110:
+send packet at 1519811363xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+05:49:23.198687 SubType: 0x1, Version: 0x10, Timestamp TAI(64-bit): Seconds 1519811363, Nanoseconds 259686617, 00:aa:aa:aa:aa:aa > 00:aa:aa:aa:aa:00, Arista Vendor Specific Protocol, length 110:
+send packet at 1519811363xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+05:49:23.198707 SubType: 0x1, Version: 0x10, Timestamp TAI(64-bit): Seconds 1519811363, Nanoseconds 259731524, 00:aa:aa:aa:aa:aa > 00:aa:aa:aa:aa:00, Arista Vendor Specific Protocol, length 110:
+send packet at 1519811363xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+05:49:23.198721 SubType: 0x1, Version: 0x10, Timestamp TAI(64-bit): Seconds 1519811363, Nanoseconds 259768018, 00:aa:aa:aa:aa:aa > 00:aa:aa:aa:aa:00, Arista Vendor Specific Protocol, length 110:
+send packet at 1519811363xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+05:49:23.198737 SubType: 0x1, Version: 0x10, Timestamp TAI(64-bit): Seconds 1519811363, Nanoseconds 260039319, 00:aa:aa:aa:aa:aa > 00:aa:aa:aa:aa:00, Arista Vendor Specific Protocol, length 110:
+send packet at 1519811363xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+05:49:23.198947 SubType: 0x1, Version: 0x10, Timestamp TAI(64-bit): Seconds 1519811363, Nanoseconds 260072262, 00:aa:aa:aa:aa:aa > 00:aa:aa:aa:aa:00, Arista Vendor Specific Protocol, length 110:
+send packet at 1519811363xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

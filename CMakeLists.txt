@@ -1001,6 +1001,7 @@ endif(NOT WIN32)
 add_library(netdissect STATIC
     ${NETDISSECT_SOURCE_LIST_C}
 )
+set_target_properties(netdissect PROPERTIES COMPILE_FLAGS "${C_ADDITIONAL_FLAGS}")
 
 set(TCPDUMP_SOURCE_LIST_C tcpdump.c)
 
@@ -1033,6 +1034,7 @@ source_group("Header Files" FILES ${PROJECT_SOURCE_LIST_H})
 ######################################
 
 add_executable(tcpdump ${TCPDUMP_SOURCE_LIST_C})
+set_target_properties(tcpdump PROPERTIES COMPILE_FLAGS "${C_ADDITIONAL_FLAGS}")
 target_link_libraries(tcpdump netdissect ${TCPDUMP_LINK_LIBRARIES})
 
 ######################################

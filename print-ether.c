@@ -207,7 +207,8 @@ recurse:
 		 * the enclosed type field.
 		 */
 		if (caplen < 4) {
-			ND_PRINT("[|vlan]");
+			ndo->ndo_protocol = "vlan";
+			nd_print_trunc(ndo);
 			return (hdrlen + caplen);
 		}
 	        if (ndo->ndo_eflag) {
@@ -410,7 +411,8 @@ ethertype_print(netdissect_options *ndo,
 
 	case ETHERTYPE_ISO:
 		if (length == 0 || caplen == 0) {
-			ND_PRINT(" [|osi]");
+			ndo->ndo_protocol = "isoclns";
+			nd_print_trunc(ndo);
 			return (1);
 		}
 		isoclns_print(ndo, p + 1, length - 1);

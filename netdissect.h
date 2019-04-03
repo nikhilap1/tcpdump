@@ -607,7 +607,7 @@ extern void netbeui_print(netdissect_options *, u_short, const u_char *, u_int);
 extern void nfsreply_print(netdissect_options *, const u_char *, u_int, const u_char *);
 extern void nfsreply_noaddr_print(netdissect_options *, const u_char *, u_int, const u_char *);
 extern void nfsreq_noaddr_print(netdissect_options *, const u_char *, u_int, const u_char *);
-extern const u_char * ns_nprint(netdissect_options *, const u_char *, const u_char *);
+extern const u_char *fqdn_print(netdissect_options *, const u_char *, const u_char *);
 extern void domain_print(netdissect_options *, const u_char *, u_int, int);
 extern void nsh_print(netdissect_options *ndo, const u_char *bp, u_int len);
 extern void ntp_print(netdissect_options *, const u_char *, u_int);

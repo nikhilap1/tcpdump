@@ -903,7 +903,7 @@ handle_chap(netdissect_options *ndo,
 			ND_PRINT("%02x", EXTRACT_U_1(p));
 			p++;
 		}
-		name_size = len - (p - p0);
+		name_size = len - (u_int)(p - p0);
 		ND_PRINT(", Name ");
 		for (i = 0; i < name_size; i++) {
 			ND_TCHECK_1(p);
@@ -913,7 +913,7 @@ handle_chap(netdissect_options *ndo,
 		break;
 	case CHAP_SUCC:
 	case CHAP_FAIL:
-		msg_size = len - (p - p0);
+		msg_size = len - (u_int)(p - p0);
 		ND_PRINT(", Msg ");
 		for (i = 0; i< msg_size; i++) {
 			ND_TCHECK_1(p);
@@ -1440,7 +1440,7 @@ ppp_hdlc(netdissect_options *ndo,
 	 */
 	se = ndo->ndo_snapend;
 	ndo->ndo_snapend = t;
-	length = t - b;
+	length = ND_BYTES_AVAILABLE_AFTER(b);
 
         /* now lets guess about the payload codepoint format */
         if (length < 1)
